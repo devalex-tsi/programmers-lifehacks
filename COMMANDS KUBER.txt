@@ -1,0 +1,59 @@
+minikube start
+minikube start --driver='virtualbox'
+minikube status
+minikube version
+minikube node list
+minikube node add --worker
+minikube service kubernetes-dashboard -n kubernetes-dashboard
+
+
+kubectl config current-context 
+kubectl config use-context corecluster
+
+kubectl get po -A
+kubectl get nodes
+kubectl get pods
+
+kubectl get svc -A
+
+kubectl get componentstatus
+kubectl cluster-info
+
+run pg-pod --image=alex/date-time-image --port=80
+
+kubectl delete pods pg-pod
+kubectl describe pods pod-name
+kubectl exec my-pod -- date
+kubectl logs my-pod
+
+kubectl port-forward my-pod 7788:80   (7788 - local, 80- pod)
+
+kubectl apply -f my-date-app-v1.yaml
+kubectl delete -f my-date-app-v1.yaml
+
+kubectl get deploy
+kubectl create deploy my-deployment --image alex/date-time-image
+
+kubectl scale deploy my-deployment --replicas 3
+kubectl get rs
+
+kubectl autoscale deploy my-deployment --min=4 --max=6 --cpu-percent=80
+kubectl get hpa
+kubectl rollout status deploy/my-deployment
+kubectl rollout history deploy/my-deployment
+
+kubectl exec -i -t -n anntoolset core-doc-db-postgresql-0 -c postgresql -- sh -c "clear; (bash || ash || sh)"
+
+
+
+
+
+
+
+
+
+
+
+
+
+

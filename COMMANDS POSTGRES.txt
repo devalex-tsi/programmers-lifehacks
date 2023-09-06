@@ -1,0 +1,12 @@
+connect with user:
+psql -h $(hostname -i) -U docapp
+
+show users:
+\du
+
+ALTER USER yourusername WITH PASSWORD 'yournewpass';
+
+
+
+export POSTGRES_ADMIN_PASSWORD=$(kubectl get secret --namespace annset core-doc-db-postgresql -o jsonpath="{.data.postgres-password}" | base64 -d)
+export POSTGRES_PASSWORD=$(kubectl get secret --namespace annset core-doc-db-postgresql -o jsonpath="{.data.password}" | base64 -d)

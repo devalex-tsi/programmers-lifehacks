@@ -1,0 +1,10 @@
+helm list
+
+helm search repo
+
+helm install my_app
+helm delete my_app
+
+helm install [release-name] [repo-name] --set persistence.existingClaim=[pvc-name] --set volumePermissions.enabled=true
+
+helm install core-doc-db bitnami/postgresql --set primary.persistence.existingClaim=core-doc-db-pvc,auth.postgresPassword=***,auth.username=docapp,auth.password=***,auth.database=doc

@@ -1,0 +1,38 @@
+docker ps - working containers
+docker ps -a - all containers
+
+docker network ls
+
+docker run --name pg-doc -p 8165:5432 -e POSTGRES_USER=docker -e POSTGRES_PASSWORD=*** -e POSTGRES_DB=pg-doc --network=bridge -d postgres
+
+docker stop <container_name_or_id>
+docker rm <container_name_or_id>
+
+
+docker inspect core-doculab-backend -f "{{json .NetworkSettings.Networks }}"
+docker network inspect bridge -f "{{json .Containers }}"
+ocker network inspect NETWORK_NAME
+docker ps -a --format '    {{ .ID }} | {{ .Names }} | {{ json .Networks }}'
+
+
+docker build -t counter-image -f Dockerfile .
+
+docker images
+
+docker run -p 5203:80 counter-image
+http://localhost:5203/
+
+docker tag date-time-image:latest alex/date-time-image:latest
+
+docker exec -it core-doc-backend bash
+
+root folder:
+dotnet publish -c debug -v normal -o .\build\publish\app\ .\src\I.RdaMant\I.RdaMant.csproj
+docker build -t rda-backend .
+
+docker run --name rda-backend -p 5505:80 -d rda-backend
+
+
+
+
+
