@@ -6,6 +6,9 @@ https://marketplace.visualstudio.com/items?itemName=kisstkondoros.vscode-gutter-
 Live Server - to create a live preview for the current project.
 https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer
 
+Auto Rename Tag - to automatically update matching HTML tags
+https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-rename-tag
+
 
 Settings
 
