@@ -1,2 +1,15 @@
-Image Preview to display an image preview next to the code:
+Extensions
+
+Image Preview - to display an image preview next to the code:
 https://marketplace.visualstudio.com/items?itemName=kisstkondoros.vscode-gutter-preview
+
+Live Server - to create a live preview for the current project.
+https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer
+
+
+Settings
+
+Auto Save set to onFocusChange, to automatically save files:
+1 Press Ctrl + Shift + P
+2 Type auto save
+3 Toggle Auto Save
