@@ -1,0 +1,2 @@
+Image Preview to display an image preview next to the code:
+https://marketplace.visualstudio.com/items?itemName=kisstkondoros.vscode-gutter-preview
