@@ -1,0 +1,21 @@
+My SEO setup
+
+Tools:
+Screaming Frog
+Sitebulb
+Google search console
+
+Sites:
+https://technicalseo.com/tools/robots-txt/ - play with robots.txt rules
+
+
+Google search operators:
+site:
+usage: site:site_domen_name
+
+intitle:
+usage: intitle:site_domen_name "search title query"
+
+inurl:
+usage: site:site_domen_name
+usage: inurl:site_domen_name "search_url_query"
