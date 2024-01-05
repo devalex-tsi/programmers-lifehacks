@@ -5,11 +5,13 @@ Screaming Frog
 Sitebulb
 Google search console
 
+
 Sites:
 https://technicalseo.com/tools/robots-txt/ - play with robots.txt rules
 
 
 Google search operators:
+
 site:
 usage: site:site_domen_name
 
@@ -19,3 +21,18 @@ usage: intitle:site_domen_name "search title query"
 inurl:
 usage: site:site_domen_name
 usage: inurl:site_domen_name "search_url_query"
+
+
+Google Chrome Extensions
+
+Redirect Path
+https://chromewebstore.google.com/detail/redirect-path/aomidfkchockcldhbkggjokdkkebmdll
+
+View Rendered Source
+https://chromewebstore.google.com/detail/view-rendered-source/ejgngohbdedoabanmclafpkoogegdpob
+
+User-Agent Switcher
+https://chromewebstore.google.com/detail/user-agent-switcher/lkmofgnohbedopheiphabfhfjgkhfcgf
+
+Robots Exclusion Checker
+https://chromewebstore.google.com/detail/robots-exclusion-checker/lnadekhdikcpjfnlhnbingbkhkfkddkl
