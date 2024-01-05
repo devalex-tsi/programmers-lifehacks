@@ -19,7 +19,6 @@ intitle:
 usage: intitle:site_domen_name "search title query"
 
 inurl:
-usage: site:site_domen_name
 usage: inurl:site_domen_name "search_url_query"
 
 
