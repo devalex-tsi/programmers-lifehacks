@@ -4,6 +4,7 @@ Tools:
 Screaming Frog
 Sitebulb
 Google search console
+Lighthouse in Chrome DevTools
 
 
 Sites:
