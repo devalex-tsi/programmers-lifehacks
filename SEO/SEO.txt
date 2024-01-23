@@ -6,6 +6,10 @@ Sitebulb
 Google search console
 Lighthouse in Chrome DevTools
 
+https://littlewarden.com/
+https://www.contentkingapp.com/
+https://pagespeed.web.dev/
+
 
 Sites:
 https://technicalseo.com/tools/robots-txt/ - play with robots.txt rules
