@@ -40,3 +40,6 @@ https://chromewebstore.google.com/detail/user-agent-switcher/lkmofgnohbedopheiph
 
 Robots Exclusion Checker
 https://chromewebstore.google.com/detail/robots-exclusion-checker/lnadekhdikcpjfnlhnbingbkhkfkddkl
+
+Compare SERP Titles (to see how google modify titles)
+https://chromewebstore.google.com/detail/compare-serp-titles/ncakmkcflllkgmladlcideipoejpabol
