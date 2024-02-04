@@ -9,7 +9,15 @@ Lighthouse in Chrome DevTools
 https://littlewarden.com/
 https://www.contentkingapp.com/
 https://pagespeed.web.dev/
+
+
+Keywords tools:
+
 https://trends.google.com/trends/
+https://colab.research.google.com/drive/1LkdAGBKXqWpu5FYGS_BMyS1Fzw47ynmt (Google Suggest Keyword Tool)
+https://answersocrates.com/
+https://answerthepublic.com/
+https://alsoasked.com/
 
 
 Sites:
