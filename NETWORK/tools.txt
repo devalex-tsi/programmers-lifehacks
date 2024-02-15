@@ -1,0 +1,4 @@
+Wireshark - packet analysis
+OpenSSL(https://tecadmin.net/install-openssl-on-windows/)
+
+certmgr.msc - windows Certificate Manager Tool
