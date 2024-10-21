@@ -1,0 +1,21 @@
+Code Review Request:
+
+Project/Feature: [Brief project description, including the functionality and purpose.]
+
+Technology Stack: .NET Framework, C#
+
+Context/Description:
+The code implements [functionality]. I am requesting a detailed review to ensure the following areas are optimized:
+
+Clarity and Readability – Is the code easy to follow and understand?
+Adherence to C# Coding Standards – Does the code follow naming conventions, use appropriate access modifiers, etc.?
+Algorithm Efficiency – Are the algorithms optimal for performance?
+Refactoring Opportunities – Can the code be simplified or made more modular?
+.NET Best Practices – Is the code secure and scalable? Does it follow the appropriate design patterns?
+Review Checklist:
+
+Are there any areas of inefficiency in loops, LINQ, or async/await usage?
+Is dependency injection being used correctly?
+Does the code handle errors and exceptions properly?
+Are .NET-specific features, such as Task Parallel Library (TPL) or async streams, utilized effectively?
+Are there any grammatical errors?
