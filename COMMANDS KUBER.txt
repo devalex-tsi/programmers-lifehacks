@@ -45,8 +45,27 @@ kubectl rollout history deploy/my-deployment
 kubectl exec -i -t -n anntoolset core-doc-db-postgresql-0 -c postgresql -- sh -c "clear; (bash || ash || sh)"
 
 
+Get pod logs
+kubectl logs <pod-name> -n <namespace>
 
+last 100 rows
+kubectl logs <pod-name> -n <namespace> --tail=100
 
+Using more (to scroll only down):
+kubectl logs <pod-name> -n <namespace> | more
+These commands allow you to view logs in parts, scrolling as needed. You can use the following keys:
+space  — to scroll one page down.
+b — to scroll one page up.
+q — to exit the viewing mode.
+
+For real-time log viewing (similar to tail -f), use:
+kubectl logs -f <pod-name> -n <namespace>
+
+Lists all services in the specified namespace:
+kubectl get svc -n <namespace>
+
+Information about the specific Ingress resource
+kubectl get ingress <ingress-name> -n <namespace>
 
 
 
