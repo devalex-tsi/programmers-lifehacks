@@ -63,16 +63,49 @@ After reboot, ensure **Shared Clipboard** is still set to `Bidirectional`.
 In Ubuntu, check that the VirtualBox client is running:
 
 ```bash
-pgrep -a VBoxClient || VBoxClient-all & disown
+pgrep -a VBoxClient
 ```
 
-Or, for clipboard only:
+You should see a process like:
+
+```
+/usr/bin/VBoxClient --clipboard
+```
+
+If not, you can start it manually:
 
 ```bash
-pkill -f "VBoxClient --clipboard" 2>/dev/null; VBoxClient --clipboard & disown
+VBoxClient --clipboard & disown
 ```
 
-Now, copying and pasting between host and guest should work.
+---
+
+## Step 5: After Restart (if clipboard stops working)
+
+If after restarting (either **reboot** inside Ubuntu or **powering off and starting** the VM from VirtualBox Manager) the clipboard does not work:
+
+1. Make sure the required packages are installed:
+
+   ```bash
+   sudo apt install -y virtualbox-guest-utils virtualbox-guest-x11
+   ```
+
+2. Start the `VBoxClient` clipboard service manually:
+
+   ```bash
+   pkill -f "VBoxClient --clipboard" 2>/dev/null
+   VBoxClient --clipboard & disown
+   ```
+
+3. If it works, the service will usually also run automatically on future startups.
+
+4. Otherwise, reboot the VM:
+
+   ```bash
+   sudo reboot
+   ```
+
+5. Verify again that `VBoxClient --clipboard` is running (see Step 4).
 
 ---
 
